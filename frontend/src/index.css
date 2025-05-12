@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+.button {
+    user-select: none; /* Prevents text selection */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none;
+}
+
+.hide-scrollbar {
+    scrollbar-color: rgba(0, 0, 0, 0) transparent;
+    scrollbar-width: thin;
+}
+
+.show-scrollbar {
+    scrollbar-width: thin;
+    transition: scrollbar-color 0.3s ease;
+}
