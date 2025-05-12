@@ -50,6 +50,7 @@ export default function Auth() {
             );
         } finally {
             setLoading(false);
+            window.location.reload()
         }
     };
 
